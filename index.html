@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>First Project</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-  <h1  class="header">Hello Microverse</h1>
-</body>
 
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Test Suite Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="title">
+    <h1 id="title">Survey Exercice</h1>
+    </div>
+    <form class="survey-form" id="survey-form" action="">
+
+      <label id="name-label" for="name">Name</label>
+      <input type="text" placeholder="First Name" required>
+
+      <label id="email-label" for="email">Mail</label>
+      <input type="email" pattern=".+@hotmail.com" placeholder="@hotmail.com" required>
+
+      <label id="number-label" for="number">Age:</label>
+      <input type="number" id="number" min="18" max="99" placeholder="Ingresa tu edad">
+
+      <label for="dropdown">Select Your Profession</label>
+      <select id="dropdown">
+        <option>Entrepreneur</option>
+        <option>Enginner</option>
+        <option>Estudent</option>
+        <option>Unemployed</option>
+      </select>
+
+
+      <label id="email-label" for="radio11">Will you switch job in the next 6 months?</label>
+
+    
+      <div class="options">
+        <label for="ck1">Yes</label>
+        <input value="5" type="checkbox" id="1" >
+        
+        <label  for="ck4">Probably </label>
+        <input value="4" type="checkbox" id="4">
+        
+        <label id="email-label" for="radio12">May be</label>
+        <input value="3" type="radio" id="radio12">
+        
+        <label for="ck2">No Sure</label>
+        <input value="2" type="checkbox" id="2" >
+        
+        <label  for="ck3">No</label>
+        <input value="1" type="checkbox" id="3" >
+        
+      </div>
+        
+      
+
+      
+
+    <textarea name="coments" id="coments" cols="20" rows="20" placeholder="Comments Section"></textarea>
+
+    <button id="submit">Send it</button>
+
+    </form>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
 </html>

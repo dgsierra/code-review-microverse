@@ -13,3 +13,15 @@ form{
   text-align: center;
   justify-content: center;
 }
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

@@ -37,19 +37,7 @@ In this project, I set up a "Hello world" repository. No complex coding was requ
 
 
 
-
-
-**For this project, we had to get familiar with Github Actions applying Linters to learn how to have cleaner and more profesional codes. Also we had to create a .gitignore file and practice adding new branches to the main repository.** 
-
-
-
-
-
-## I hope that it fulfill your espectations.
-
-
-
-
+## Original Author of the Code:
 
 👤 **Matias Aguirre**
 
@@ -68,9 +56,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
-Give a ⭐️ if you like this project!
 
 
 📝 License
-This project is MIT licensed.
+This project is Open Source.
